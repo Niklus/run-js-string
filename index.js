@@ -65,3 +65,10 @@ console.log("--Waiting for injected script2 to load---");
 /**
  * Pick number 3 unless you have a better use case!
  */
+
+/**
+ * Also:
+ */
+let multiply = new Function("a", "b", "return a * b");
+
+console.log(multiply(2, 3)); // 6
